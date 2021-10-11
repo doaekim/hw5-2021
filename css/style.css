@@ -200,40 +200,49 @@ header{
   }
 
   .container{
-   
+    grid-template-columns: 50px auto 500px auto 50px;
+    grid-template-rows: repeat(5, 400px);
+  
   }
 
   
 
-  .about-image{
+.about-image{
+    grid-column: 2/ span 2;
   
   }
 
   .about{
+    grid-column: 3/ span 2;
     
   }
 
   .method-image{
-    
+    grid-column: 3/ span 2;
+
   }
 
   .method{
+    grid-column: 2/ span 2;
    
   }
 
   .clients-image{
-    
+    grid-column: 2/ span 2;
   }
 
   .clients{
+    grid-column: 3/ span 2;
     
   }
 
   .contact-image{
-    
+    grid-column: 3/ span 2;
+
   }
 
   .contact{
+     grid-column: 2/ span 2;
     
   }
 
